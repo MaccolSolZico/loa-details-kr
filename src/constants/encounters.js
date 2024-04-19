@@ -247,6 +247,18 @@ export const encounters = {
       .href,
     encounterNames: ["에키드나","욕망의 주인, 에키드나"],
   },
+  BehemothG1: {
+    name: "베히모스 1관문",
+    image: new URL("../assets/images/encounters/Behemoth.png", import.meta.url)
+      .href,
+    encounterNames: ["폭풍의 지휘관, 베히모스"],
+  },
+  BehemothG2: {
+    name: "베히모스 2관문",
+    image: new URL("../assets/images/encounters/Behemoth.png", import.meta.url)
+      .href,
+    encounterNames: ["잔혹한 폭풍의 처단자, 베히모스"],
+  },
   /* GUARDIANS BELOW */
   Achates: {
     name: "Achates",
