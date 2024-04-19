@@ -37,151 +37,127 @@ const test = [
 
 export const encounters = {
   Argos: {
-    name: "Argos",
+    name: "아르고스",
     image: new URL("../assets/images/encounters/argos.png", import.meta.url)
       .href,
-    encounterNames: ["Argos"],
+    encounterNames: ["아르고스"],
   },
   ValtanG1: {
-    name: "Valtan Gate 1",
+    name: "발탄 1관문",
     image: new URL("../assets/images/encounters/valtan.png", import.meta.url)
       .href,
     encounterNames: [
-      "Dark Mountain Predator",
-      "Destroyer Lucas",
-      "Leader Lugaru",
+      "검은 산의 포식자",
+      "파괴자 루카스",
+      "통솔자 루가루",
     ],
   },
   ValtanG2: {
-    name: "Valtan Gate 2",
+    name: "발탄 2관문",
     image: new URL("../assets/images/encounters/valtan.png", import.meta.url)
       .href,
-    encounterNames: ["Demon Beast Commander Valtan"],
+    encounterNames: ["찢겨진 마수의 군주"],
   },
   VykasG1: {
-    name: "Vykas Gate 1",
+    name: "비아키스 1관문",
     image: new URL("../assets/images/encounters/vykas.png", import.meta.url)
       .href,
-    encounterNames: ["Incubus Morphe", "Nightmarish Morphe"],
+    encounterNames: ["욕망의 탐식자 비아키스"],
   },
   VykasG2: {
-    name: "Vykas Gate 2",
+    name: "비아키스 2관문",
     image: new URL("../assets/images/encounters/vykas.png", import.meta.url)
       .href,
-    encounterNames: ["Covetous Devourer Vykas"],
-  },
-  VykasG3: {
-    name: "Vykas Gate 3",
-    image: new URL("../assets/images/encounters/vykas.png", import.meta.url)
-      .href,
-    encounterNames: ["Covetous Legion Commander Vykas"],
+    encounterNames: ["욕망의 탐식자 비아키스"],
   },
   KakulG1: {
-    name: "Kakul-Saydon Gate 1",
+    name: "쿠크세이튼 1관문",
     image: new URL(
       "../assets/images/encounters/Kakul-Saydon.png",
       import.meta.url
     ).href,
-    encounterNames: ["Saydon"],
+    encounterNames: ["세이튼"],
   },
   KakulG2: {
-    name: "Kakul-Saydon Gate 2",
+    name: "쿠크세이튼 2관문",
     image: new URL(
       "../assets/images/encounters/Kakul-Saydon.png",
       import.meta.url
     ).href,
-    encounterNames: ["Kakul"],
+    encounterNames: ["쿠크"],
   },
   KakulG3: {
-    name: "Kakul-Saydon Gate 3",
+    name: "쿠크세이튼 3관문",
     image: new URL(
       "../assets/images/encounters/Kakul-Saydon.png",
       import.meta.url
     ).href,
-    encounterNames: ["Kakul-Saydon"],
+    encounterNames: ["쿠크세이튼", "앵콜을 외친 쿠크세이튼"],
   },
   BrelshazaG1: {
-    name: "Brelshaza Gate 1",
+    name: "아브렐슈드 1관문",
     image: new URL("../assets/images/encounters/Brelshaza.png", import.meta.url)
       .href,
-    encounterNames: ["Gehenna Helkasirs"],
+    encounterNames: ["게헤나 헬카서스"],
   },
   BrelshazaG2: {
-    name: "Brelshaza Gate 2",
+    name: "아브렐슈드 2관문",
     image: new URL("../assets/images/encounters/Brelshaza.png", import.meta.url)
       .href,
-    encounterNames: ["Prokel's Spiritual Echo", "Prokel"],
+    encounterNames: ["아슈타로테"],
   },
   BrelshazaG3: {
-    name: "Brelshaza Gate 3",
+    name: "아브렐슈드 3관문",
     image: new URL("../assets/images/encounters/Brelshaza.png", import.meta.url)
       .href,
-    encounterNames: ["Ashtarot"],
+    encounterNames: ["태초의 악몽"],
   },
   BrelshazaG4: {
-    name: "Brelshaza Gate 4",
+    name: "아브렐슈드 4관문",
     image: new URL("../assets/images/encounters/Brelshaza.png", import.meta.url)
       .href,
-    encounterNames: ["Primordial Nightmare"],
-  },
-  BrelshazaG5: {
-    name: "Brelshaza Gate 5",
-    image: new URL("../assets/images/encounters/Brelshaza.png", import.meta.url)
-      .href,
-    encounterNames: ["Brelshaza, Monarch of Nightmares"],
-  },
-  BrelshazaG6: {
-    name: "Brelshaza Gate 6",
-    image: new URL("../assets/images/encounters/Brelshaza.png", import.meta.url)
-      .href,
-    encounterNames: ["Phantom Legion Commander Brelshaza"],
+    encounterNames: ["몽환군단장 아브렐슈드"],
   },
   KayangelG1: {
-    name: "Kayangel Gate 1",
+    name: "카양겔 1관문",
     image: new URL("../assets/images/encounters/kayangel.png", import.meta.url)
       .href,
-    encounterNames: ["Celestial Sentinel"],
+    encounterNames: ["티엔"],
   },
   KayangelG2: {
-    name: "Kayangel Gate 2",
-    image: new URL("../assets/images/encounters/kayangel.png", import.meta.url)
-      .href,
-    encounterNames: ["Tienis"],
-  },
-  KayangelG3: {
-    name: "Kayangel Gate 3",
+    name: "카양겔 2관문",
     image: new URL("../assets/images/encounters/kayangel.png", import.meta.url)
       .href,
     encounterNames: [
-      "Prunya",
-      "Frost Guardian",
-      "Flame Guardian",
-      "Nature Guardian",
+      "프리우나",
+      "프리우나 수호자 (얼음)",
+      "프리우나 수호자 (화염)",
+      "프리우나 수호자 (자연)",
     ],
   },
   KayangelG4: {
-    name: "Kayangel Gate 4",
+    name: "카양겔 4관문",
     image: new URL("../assets/images/encounters/kayangel.png", import.meta.url)
       .href,
-    encounterNames: ["Lauriel"],
+    encounterNames: ["라우리엘", "라우리엘 각성 후"],
   },
   AkkanG1: {
-    name: "Akkan Gate 1",
+    name: "일리아칸 1관문",
     image: new URL("../assets/images/encounters/akkan.png", import.meta.url)
       .href,
-    encounterNames: ["Griefbringer Maurug"],
+    encounterNames: ["비통의 지배자 마우르그"],
   },
   AkkanG2: {
-    name: "Akkan Gate 2",
+    name: "일리아칸 2관문",
     image: new URL("../assets/images/encounters/akkan.png", import.meta.url)
       .href,
-    encounterNames: ["Lord of Degradation Akkan"],
+    encounterNames: ["쇠락의 군주 일리아칸"],
   },
   AkkanG3: {
-    name: "Akkan Gate 3",
+    name: "일리아칸 3관문",
     image: new URL("../assets/images/encounters/akkan.png", import.meta.url)
       .href,
-    encounterNames: ["Plague Legion Commander Akkan", "Lord of Kartheon Akkan"],
+    encounterNames: ["질병군단장 일리아칸", "일리아칸, 카르테론의 군주"],
   },
   IvorytowerG1: {
     name: "혼돈의 상아탑 1관문",
@@ -261,174 +237,134 @@ export const encounters = {
   },
   /* GUARDIANS BELOW */
   Achates: {
-    name: "Achates",
+    name: "아카테스",
     image: new URL("../assets/images/encounters/achates.png", import.meta.url)
       .href,
-    encounterNames: ["Achates", "Achates+"],
+    encounterNames: ["아카테스", "아카테스+"],
   },
   Alberhastic: {
-    name: "Alberhastic",
-    image: new URL(
-      "../assets/images/encounters/alberhastic.png",
-      import.meta.url
-    ).href,
-    encounterNames: ["Alberhastic", "Alberhastic+"],
+    name: "엘버하스틱",
+    encounterNames: ["엘버하스틱", "엘버하스틱+"],
   },
   "Armored Nacrasena": {
-    name: "Armored Nacrasena",
-    image: new URL(
-      "../assets/images/encounters/armored_nacrasena.png",
-      import.meta.url
-    ).href,
-    encounterNames: ["Armored Nacrasena", "Armored Nacrasena+"],
+    name: "중갑 나크라세나",
+    encounterNames: ["중갑 나크라세나", "중갑 나크라세나+"],
   },
   Caliligos: {
-    name: "Caliligos",
+    name: "칼엘리고스",
     image: new URL("../assets/images/encounters/Caliligos.png", import.meta.url)
       .href,
-    encounterNames: ["Caliligos"],
+    encounterNames: ["칼엘리고스"],
   },
   Calventus: {
-    name: "Calventus",
+    name: "칼벤투스",
     image: new URL("../assets/images/encounters/calventus.png", import.meta.url)
       .href,
-    encounterNames: ["Calventus", "Calventus+"],
+    encounterNames: ["칼벤투스", "칼벤투스+"],
   },
   Chromanium: {
-    name: "Chromanium",
-    image: new URL(
-      "../assets/images/encounters/chromanium.png",
-      import.meta.url
-    ).href,
-    encounterNames: ["Chromanium", "Chromanium+"],
+    name: "크로마니움",
+    encounterNames: ["크로마니움", "크로마니움+"],
   },
   "Dark Legoros": {
-    name: "Dark Legoros",
-    image: new URL(
-      "../assets/images/encounters/dark_legoros.png",
-      import.meta.url
-    ).href,
-    encounterNames: ["Dark Legoros", "Dark Legoros+"],
+    name: "어둠의 레기오로스",
+    encounterNames: ["어둠의 레기오로스", "어둠의 레기오로스+"],
   },
   Deskaluda: {
-    name: "Deskaluda",
+    name: "데스칼루다",
     image: new URL("../assets/images/encounters/deskaluda.png", import.meta.url)
       .href,
-    encounterNames: ["Deskaluda", "Deskaluda+"],
+    encounterNames: ["데스칼루다", "데스칼루다+"],
   },
   "Flame Fox Yoho": {
-    name: "Flame Fox Yoho",
-    image: new URL(
-      "../assets/images/encounters/flame_fox_yoho.png",
-      import.meta.url
-    ).href,
-    encounterNames: ["Flame Fox Yoho", "Flame Fox Yoho+"],
+    name: "홍염의 요호",
+    encounterNames: ["홍염의 요호", "홍염의 요호+"],
   },
   "Frost Helgaia": {
-    name: "Frost Helgaia",
-    image: new URL(
-      "../assets/images/encounters/frost_helgaia.png",
-      import.meta.url
-    ).href,
-    encounterNames: ["Frost Helgaia", "Frost Helgaia+"],
+    name: "혹한의 헬가이아",
+    encounterNames: ["혹한의 헬가이아", "혹한의 헬가이아+"],
   },
   Hanumatan: {
-    name: "Hanumatan",
+    name: "하누마탄",
     image: new URL("../assets/images/encounters/hanumatan.png", import.meta.url)
       .href,
-    encounterNames: ["Hanumatan", "Hanumatan+"],
+    encounterNames: ["하누마탄", "하누마탄+"],
   },
   Helgaia: {
-    name: "Helgaia",
+    name: "헬가이아",
     image: new URL("../assets/images/encounters/helgaia.png", import.meta.url)
       .href,
-    encounterNames: ["Helgaia", "Helgaia+"],
+    encounterNames: ["헬가이아", "헬가이아+"],
   },
   "Icy Legoros": {
-    name: "Icy Legoros",
-    image: new URL(
-      "../assets/images/encounters/icy_legoros.png",
-      import.meta.url
-    ).href,
-    encounterNames: ["Icy Legoros", "Icy Legoros+"],
+    name: "빙결의 레기오로스",
+    encounterNames: ["빙결의 레기오로스", "빙결의 레기오로스+"],
   },
   Igrexion: {
-    name: "Igrexion",
+    name: "이그렉시온",
     image: new URL("../assets/images/encounters/igrexion.png", import.meta.url)
       .href,
-    encounterNames: ["Igrexion", "Igrexion+"],
+    encounterNames: ["이그렉시온", "이그렉시온+"],
   },
   "Lava Chromanium": {
-    name: "Lava Chromanium",
-    image: new URL(
-      "../assets/images/encounters/lava_chromanium.png",
-      import.meta.url
-    ).href,
-    encounterNames: ["Lava Chromanium", "Lava Chromanium+"],
+    name: "용암 크로마니움",
+    encounterNames: ["용암 크로마니움", "용암 크로마니움+"],
   },
   Levanos: {
-    name: "Levanos",
+    name: "레바노스",
     image: new URL("../assets/images/encounters/levanos.png", import.meta.url)
       .href,
-    encounterNames: ["Levanos", "Levanos+"],
+    encounterNames: ["레바노스", "레바노스+"],
   },
   Lumerus: {
-    name: "Lumerus",
+    name: "루메루스",
     image: new URL("../assets/images/encounters/lumerus.png", import.meta.url)
       .href,
-    encounterNames: ["Lumerus", "Lumerus+"],
+    encounterNames: ["루메루스", "루메루스+"],
   },
   Nacrasena: {
-    name: "Nacrasena",
+    name: "나크라세나",
     image: new URL("../assets/images/encounters/nacrasena.png", import.meta.url)
       .href,
-    encounterNames: ["Nacrasena", "Nacrasena+"],
+    encounterNames: ["나크라세나", "나크라세나+"],
   },
   "Night Fox Yoho": {
-    name: "Night Fox Yoho",
-    image: new URL(
-      "../assets/images/encounters/night_fox_yoho.png",
-      import.meta.url
-    ).href,
-    encounterNames: ["Night Fox Yoho", "Night Fox Yoho+"],
+    name: "흑야의 요호",
+    encounterNames: ["흑야의 요호", "흑야의 요호+"],
   },
   Tytalos: {
-    name: "Tytalos",
+    name: "타이탈로스",
     image: new URL("../assets/images/encounters/tytalos.png", import.meta.url)
       .href,
-    encounterNames: ["Tytalos", "Tytalos+"],
+    encounterNames: ["타이탈로스", "타이탈로스+"],
   },
   Urnil: {
-    name: "Urnil",
+    name: "우르닐",
     image: new URL("../assets/images/encounters/urnil.png", import.meta.url)
       .href,
-    encounterNames: ["Urnil", "Ur'nil", "Urnil+"],
+    encounterNames: ["우르닐", "우르닐+"],
   },
   Velganos: {
-    name: "Velganos",
+    name: "벨가누스",
     image: new URL("../assets/images/encounters/velganos.png", import.meta.url)
       .href,
-    encounterNames: ["Velganos", "Velganos+"],
+    encounterNames: ["벨가누스", "벨가누스+"],
   },
   Vertus: {
-    name: "Vertus",
+    name: "베르투스",
     image: new URL("../assets/images/encounters/vertus.png", import.meta.url)
       .href,
-    encounterNames: ["Vertus", "Vertus+"],
+    encounterNames: ["베르투스", "베르투스+"],
   },
   Kungelanium: {
-    name: "Kungelanium",
-    image: new URL(
-      "../assets/images/encounters/kungelanium.png",
-      import.meta.url
-    ).href,
-    encounterNames: ["Kungelanium", "Kungelanium+"],
+    name: "쿤겔라니움",
+    encounterNames: ["쿤겔라니움", "쿤겔라니움+"],
   },
   Sonavel: {
-    name: "Sonavel",
+    name: "소나벨",
     image: new URL("../assets/images/encounters/sonavel.png", import.meta.url)
       .href,
-    encounterNames: ["Sonavel", "Sonavel+"],
+    encounterNames: ["소나벨", "소나벨+"],
   },
   Gargadis: {
     name: "가르가디스",

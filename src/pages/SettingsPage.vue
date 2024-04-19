@@ -7,10 +7,10 @@
       mobile-arrows
       class="settings-tabs text-white shadow-2"
     >
-      <q-tab name="general" icon="display_settings" label="General" />
-      <q-tab name="damage_meter" icon="speed" label="Damage Meter" />
-      <q-tab name="log" icon="article" label="Log " />
-      <q-tab name="shortcuts" icon="keyboard" label="Shortcuts " />
+      <q-tab name="general" icon="display_settings" label="일반" />
+      <q-tab name="damage_meter" icon="speed" label="미터기" />
+      <q-tab name="log" icon="article" label="기록 " />
+      <q-tab name="shortcuts" icon="keyboard" label="단축키 " />
       <!-- <q-tab name="upload_logs" icon="cloud_upload" label="Uploading" /> -->
     </q-tabs>
 

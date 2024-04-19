@@ -171,7 +171,7 @@
                 encounter.encounterName +
                 ' | ' +
                 encounter.attempts.length +
-                ' attempt(s)'
+                ' 조우'
               "
               :subtitle="
                 millisToHourMinuteSeconds(encounter.startingMs) +
@@ -198,7 +198,7 @@
                     <img v-if="encounter.image" :src="encounter.image" />
 
                     <q-card-section>
-                      <div class="text-h6">Attempt {{ index + 1 }}</div>
+                      <div class="text-h6">{{ index + 1 }}번째 조우</div>
                       <div class="text-subtitle2">{{ attempt.duration }}</div>
                     </q-card-section>
                   </q-card>

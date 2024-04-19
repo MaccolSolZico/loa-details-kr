@@ -29,7 +29,7 @@
             isTakingScreenshot
           "
         >
-          LOA Details
+          LOA Details-KR
           <span v-if="!isMinimized">
             v{{ settingsStore.settings.appVersion }}
           </span>
@@ -67,21 +67,21 @@
             v-if="settingsStore.settings.damageMeter.header.damage.enabled"
             style="margin-right: 12px"
           >
-            Total DMG
+            총 딜량
             {{ numberFormat(totalDamageDealt) }}
           </span>
           <span
             v-if="settingsStore.settings.damageMeter.header.dps.enabled"
             style="margin-right: 12px"
           >
-            Total DPS
+            총 DPS
             {{ numberFormat(sessionDPS) }}
           </span>
           <span
             v-if="settingsStore.settings.damageMeter.header.tank.enabled"
             style="margin-right: 12px"
           >
-            Total TNK
+            총 TNK
             {{ numberFormat(sessionState.damageStatistics.totalDamageTaken) }}
           </span>
           <!-- <span

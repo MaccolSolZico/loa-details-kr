@@ -3,7 +3,7 @@
     <div class="q-electron-drag app-bar">
       <div>
         <span class="gilroy-extra-bold">LOA</span>
-        <span class="gilroy-light"> DETAILS </span>
+        <span class="gilroy-light"> DETAILS-KR </span>
         <span style="font-size: 10px; margin-left: 4px">
           v{{ settingsStore.settings.appVersion }}
         </span>
@@ -27,7 +27,7 @@
           @click="navigate"
         >
           <q-icon name="home" />
-          Home
+          홈
         </div>
       </router-link>
 
@@ -39,7 +39,7 @@
           @click="navigate"
         >
           <q-icon name="query_stats" />
-          Logs
+          기록
         </div>
       </router-link>
 
@@ -55,7 +55,7 @@
           @click="navigate"
         >
           <q-icon name="settings" />
-          Settings
+          설정
         </div>
       </router-link>
 

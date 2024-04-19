@@ -29,34 +29,34 @@ export function numberFormat(n: number) {
 // returns an array with 2 values based on its abbreviation
 // ex: 123456 => [123, "k"]
 export function abbreviateNumber(n: number): [number, string, string] {
-  if (n >= 1e3 && n < 1e6)
+  if (n >= 1e4 && n < 1e7)
     return [
-      +(n / 1e3).toFixed(1),
-      "k",
+      +(n / 1e4).toFixed(1),
+      "만",
       n.toLocaleString("en-US", {
         maximumFractionDigits: 0,
       }),
     ];
-  if (n >= 1e6 && n < 1e9)
+  if (n >= 1e7 && n < 1e8)
     return [
-      +(n / 1e6).toFixed(1),
-      "m",
+      +(n / 1e4).toFixed(0),
+      "만",
       n.toLocaleString("en-US", {
         maximumFractionDigits: 0,
       }),
     ];
-  if (n >= 1e9 && n < 1e12)
+  if (n >= 1e8 && n < 1e11)
     return [
-      +(n / 1e9).toFixed(1),
-      "b",
+      +(n / 1e8).toFixed(1),
+      "억",
       n.toLocaleString("en-US", {
         maximumFractionDigits: 0,
       }),
     ];
-  if (n >= 1e12)
+  if (n >= 1e11)
     return [
-      +(n / 1e12).toFixed(1),
-      "t",
+      +(n / 1e8).toFixed(0),
+      "억",
       n.toLocaleString("en-US", {
         maximumFractionDigits: 0,
       }),

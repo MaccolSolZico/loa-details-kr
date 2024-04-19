@@ -81,7 +81,7 @@
             >
               {{
                 damageType === "dmg"
-                  ? "Damage"
+                  ? "데미지"
                   : damageType === "rdps"
                   ? "RDamage"
                   : damageType === "tank"
@@ -106,7 +106,7 @@
             >
               {{
                 damageType === "dmg"
-                  ? "D"
+                  ? "딜"
                   : damageType === "rdps"
                   ? "rD"
                   : damageType === "tank"
@@ -163,7 +163,7 @@
               v-if="settingsStore.settings.damageMeter.tabs.damage.enabled"
               style="width: 72px"
             >
-              Damage
+              데미지
             </th>
             <template
               v-if="
@@ -284,7 +284,7 @@
             "
             style="width: 48px"
           >
-            CRIT
+            크리
           </th>
           <th
             v-if="
@@ -293,7 +293,7 @@
             "
             style="width: 48px"
           >
-            F.A.
+            헤드<br>어택
           </th>
           <th
             v-if="
@@ -302,7 +302,7 @@
             "
             style="width: 48px"
           >
-            B.A.
+            백<br>어택
           </th>
           <template v-if="damageType === 'rdps'">
             <th v-if="true /* TODO rdps settings */" style="width: 48px">
@@ -325,7 +325,7 @@
             "
             style="width: 52px"
           >
-            Syn%
+            시너지%
           </th>
           <th
             v-if="
@@ -441,7 +441,7 @@
             v-if="settingsStore.settings.damageMeter.tabs.damage.enabled"
             style="width: 72px"
           >
-            Damage
+            데미지
           </th>
           <template v-if="['dmg', 'tank', 'heal'].includes(damageType)">
             <th
@@ -450,7 +450,7 @@
               "
               style="width: 48px"
             >
-              D%
+              점유율
             </th>
             <th
               v-if="settingsStore.settings.damageMeter.tabs.dps.enabled"
@@ -462,19 +462,19 @@
               v-if="settingsStore.settings.damageMeter.tabs.critRate.enabled"
               style="width: 48px"
             >
-              CRIT
+              크리
             </th>
             <th
               v-if="settingsStore.settings.damageMeter.tabs.faRate.enabled"
               style="width: 48px"
             >
-              F.A.
+              헤드<br>어택
             </th>
             <th
               v-if="settingsStore.settings.damageMeter.tabs.baRate.enabled"
               style="width: 48px"
             >
-              B.A.
+              백<br>어택
             </th>
             <th
               v-if="
@@ -483,7 +483,7 @@
               "
               style="width: 52px"
             >
-              Syn%
+              시너지
             </th>
             <th
               v-if="
@@ -509,13 +509,13 @@
               v-if="settingsStore.settings.damageMeter.tabs.maxDmg.enabled"
               style="width: 52px"
             >
-              MaxDmg
+              최대<br>데미지
             </th>
             <th
               v-if="settingsStore.settings.damageMeter.tabs.avgDmg.enabled"
               style="width: 52px"
             >
-              AvgDmg
+              평균<br>데미지
             </th>
             <th
               v-if="settingsStore.settings.damageMeter.tabs.avgCast.enabled"
@@ -527,13 +527,13 @@
               v-if="settingsStore.settings.damageMeter.tabs.totalHits.enabled"
               style="width: 52px"
             >
-              TotalHits
+              총 타격
             </th>
             <th
               v-if="settingsStore.settings.damageMeter.tabs.totalCasts.enabled"
               style="width: 52px"
             >
-              TotalCasts
+              사용<br>횟수
             </th>
             <th
               v-if="settingsStore.settings.damageMeter.tabs.hpm.enabled"
