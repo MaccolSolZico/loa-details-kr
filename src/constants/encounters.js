@@ -68,30 +68,24 @@ export const encounters = {
     name: "비아키스 2관문",
     image: new URL("../assets/images/encounters/vykas.png", import.meta.url)
       .href,
-    encounterNames: ["욕망의 탐식자 비아키스"],
+    encounterNames: ["욕망군단장 비아키스"],
   },
   KakulG1: {
     name: "쿠크세이튼 1관문",
-    image: new URL(
-      "../assets/images/encounters/Kakul-Saydon.png",
-      import.meta.url
-    ).href,
+    image: new URL("../assets/images/encounters/Kakul-Saydon.png", import.meta.url)
+      .href,
     encounterNames: ["세이튼"],
   },
   KakulG2: {
     name: "쿠크세이튼 2관문",
-    image: new URL(
-      "../assets/images/encounters/Kakul-Saydon.png",
-      import.meta.url
-    ).href,
+    image: new URL("../assets/images/encounters/Kakul-Saydon.png", import.meta.url)
+      .href,
     encounterNames: ["쿠크"],
   },
   KakulG3: {
     name: "쿠크세이튼 3관문",
-    image: new URL(
-      "../assets/images/encounters/Kakul-Saydon.png",
-      import.meta.url
-    ).href,
+    image: new URL("../assets/images/encounters/Kakul-Saydon.png", import.meta.url)
+      .href,
     encounterNames: ["쿠크세이튼", "앵콜을 외친 쿠크세이튼"],
   },
   BrelshazaG1: {
@@ -135,8 +129,8 @@ export const encounters = {
       "프리우나 수호자 (자연)",
     ],
   },
-  KayangelG4: {
-    name: "카양겔 4관문",
+  KayangelG3: {
+    name: "카양겔 3관문",
     image: new URL("../assets/images/encounters/kayangel.png", import.meta.url)
       .href,
     encounterNames: ["라우리엘", "라우리엘 각성 후"],
@@ -244,10 +238,14 @@ export const encounters = {
   },
   Alberhastic: {
     name: "엘버하스틱",
+    image: new URL("../assets/images/encounters/alberhastic.png",import.meta.url)
+      .href,
     encounterNames: ["엘버하스틱", "엘버하스틱+"],
   },
   "Armored Nacrasena": {
     name: "중갑 나크라세나",
+    image: new URL("../assets/images/encounters/armored_nacrasena.png",import.meta.url)
+      .href,
     encounterNames: ["중갑 나크라세나", "중갑 나크라세나+"],
   },
   Caliligos: {
@@ -264,10 +262,14 @@ export const encounters = {
   },
   Chromanium: {
     name: "크로마니움",
+    image: new URL("../assets/images/encounters/chromanium.png",import.meta.url)
+      .href,
     encounterNames: ["크로마니움", "크로마니움+"],
   },
   "Dark Legoros": {
     name: "어둠의 레기오로스",
+    image: new URL("../assets/images/encounters/dark_legoros.png",import.meta.url)
+      .href,
     encounterNames: ["어둠의 레기오로스", "어둠의 레기오로스+"],
   },
   Deskaluda: {
@@ -278,10 +280,14 @@ export const encounters = {
   },
   "Flame Fox Yoho": {
     name: "홍염의 요호",
+    image: new URL("../assets/images/encounters/flame_fox_yoho.png",import.meta.url)
+      .href,
     encounterNames: ["홍염의 요호", "홍염의 요호+"],
   },
   "Frost Helgaia": {
     name: "혹한의 헬가이아",
+    image: new URL("../assets/images/encounters/frost_helgaia.png",import.meta.url)
+      .href,
     encounterNames: ["혹한의 헬가이아", "혹한의 헬가이아+"],
   },
   Hanumatan: {
@@ -298,6 +304,8 @@ export const encounters = {
   },
   "Icy Legoros": {
     name: "빙결의 레기오로스",
+    image: new URL("../assets/images/encounters/icy_legoros.png", import.meta.url)
+      .href,
     encounterNames: ["빙결의 레기오로스", "빙결의 레기오로스+"],
   },
   Igrexion: {
@@ -308,6 +316,8 @@ export const encounters = {
   },
   "Lava Chromanium": {
     name: "용암 크로마니움",
+    image: new URL("../assets/images/encounters/lava_chromanium.png",import.meta.url)
+      .href,
     encounterNames: ["용암 크로마니움", "용암 크로마니움+"],
   },
   Levanos: {
@@ -330,6 +340,8 @@ export const encounters = {
   },
   "Night Fox Yoho": {
     name: "흑야의 요호",
+    image: new URL("../assets/images/encounters/night_fox_yoho.png",import.meta.url)
+      .href,
     encounterNames: ["흑야의 요호", "흑야의 요호+"],
   },
   Tytalos: {
@@ -358,6 +370,8 @@ export const encounters = {
   },
   Kungelanium: {
     name: "쿤겔라니움",
+    image: new URL("../assets/images/encounters/kungelanium.png",import.meta.url)
+      .href,
     encounterNames: ["쿤겔라니움", "쿤겔라니움+"],
   },
   Sonavel: {
