@@ -2,6 +2,27 @@
   <q-scroll-area style="height: calc(100vh - 32px - 56px)">
     <div class="changelog-page">
       <h5>About</h5>
+      <div style="font-size: large; margin: 3rem 0 3rem;">
+        <div>사용법 : 최소 레이드 입장하기 전까지 켜기, 만약 못켰으면 캐릭터 선택 화면으로 나갔다가 키고 다시 들어오기</div>
+        <br />
+        <div>이 미터기는 가라로 뚫어놓은거라 rdps, 시너지% 같은 대부분의 기능들은 작동하지 않습니다.</div>
+        <br />
+        <div>그리고 북미에서 쓰고있는 원본 미터기와는 다르게 본인 딜량만 집계되게 설정 해놨고</div>
+        <div>만약에 프로그램을 뜯어 이 설정을 풀어서 사용하는게 제 눈에 띈다면 그 이후엔 절대 안뚫을것입니다.</div>
+        <br />
+        <div>또한 로그도 절대 안 만들 것입니다. 왜냐하면 이거 뚫는 것만 해도 귀찮기 때문</div>
+        <br />
+        <div>참고로 한국은 매주 수요일마다 패치를 하기 떄문에 매주 수요일마다 막힙니다.</div>
+        <br />
+        <div>막히고 뚫는거 기다리지 마셈 업뎃은해도 기분따라 안뿌리고 나만 쓸 수 있으니</div>
+        <br />
+        <div>미터기 뿌리는곳 링크 :
+          <a
+          @click="openLinkInBrowser('https://github.com/MacColSolPep/loa-details-kr/releases')"
+          class="custom-link"
+          >https://github.com/MacColSolPep/loa-details-kr/releases</a>
+        </div>
+      </div>
       <p>
         LOA Details allows you to track real-time stats of the game Lost Ark and
         view and parse its logged data.
