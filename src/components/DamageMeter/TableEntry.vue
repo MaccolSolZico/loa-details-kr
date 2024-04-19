@@ -6,12 +6,12 @@
     <td class="ellipsis">
       <span
         >{{ entryName }}
-        <template v-if="player.isPlayer && !player.statApiValid">
+        <!-- <template v-if="player.isPlayer && !player.statApiValid">
           {{ " " }}<q-icon name="warning_amber" />
           <q-tooltip>
             Player stats couldn't sync with backend
           </q-tooltip></template
-        >
+        > -->
       </span>
     </td>
     <td

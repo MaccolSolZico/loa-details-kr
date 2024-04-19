@@ -1,6 +1,6 @@
 <template>
   <div class="damage-meter-table-wrapper" :style="wrapperStyle">
-    <div
+    <!-- <div
       class="damage-meter-warning row"
       v-if="
         !hideMeterWarning &&
@@ -24,7 +24,7 @@
           }
         "
       ></q-btn>
-    </div>
+    </div> -->
     <table class="damage-meter-table">
       <thead>
         <q-menu touch-position context-menu>
