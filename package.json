@@ -1,8 +1,8 @@
 {
   "name": "loa-details",
-  "version": "1.4.28",
+  "version": "1.4.28-20240419",
   "description": "Damage meter for Lost Ark",
-  "productName": "LOA Details",
+  "productName": "LOA Details-KR",
   "author": "Herysia, Mathicha, Eren Kara <erenkyi0@gmail.com>",
   "private": true,
   "scripts": {
