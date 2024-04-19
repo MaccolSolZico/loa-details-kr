@@ -183,6 +183,30 @@ export const encounters = {
       .href,
     encounterNames: ["Plague Legion Commander Akkan", "Lord of Kartheon Akkan"],
   },
+  IvorytowerG1: {
+    name: "혼돈의 상아탑 1관문",
+    image: new URL("../assets/images/encounters/Ivorytower.png", import.meta.url)
+      .href,
+    encounterNames: ["피어나는 혼돈, 칼테이야"],
+  },
+  IvorytowerG2: {
+    name: "혼돈의 상아탑 2관문",
+    image: new URL("../assets/images/encounters/Ivorytower.png", import.meta.url)
+      .href,
+    encounterNames: ["웅크린 교만, 라카이서스"],
+  },
+  IvorytowerG3: {
+    name: "혼돈의 상아탑 3관문",
+    image: new URL("../assets/images/encounters/Ivorytower.png", import.meta.url)
+      .href,
+    encounterNames: ["대지를 짓밟는 파이어혼"],
+  },
+  IvorytowerG4: {
+    name: "혼돈의 상아탑 4관문",
+    image: new URL("../assets/images/encounters/Ivorytower.png", import.meta.url)
+      .href,
+    encounterNames: ["길을 여는 자, 라자람"],
+  },
   /* GUARDIANS BELOW */
   Achates: {
     name: "Achates",
