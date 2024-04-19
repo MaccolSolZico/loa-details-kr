@@ -222,10 +222,10 @@ const defaultSettings: Settings = {
         name: "Tanked",
         enabled: false,
       },
-      bossHP: {
-        name: "Boss HP",
-        enabled: false,
-      },
+      // bossHP: {
+      //   name: "Boss HP",
+      //   enabled: false,
+      // },
     },
     tabs: {
       damage: {
@@ -270,19 +270,19 @@ const defaultSettings: Settings = {
       },
       rdpsSynPercent: {
         name: "Synergy %",
-        enabled: true,
+        enabled: false,
       },
       rdpsSupSynPercent: {
         name: "Synergy % from supports",
-        enabled: true,
+        enabled: false,
       },
       rdpsDpsSynPercent: {
         name: "Synergy % from dps",
-        enabled: true,
+        enabled: false,
       },
       counterCount: {
         name: "Counter Count",
-        enabled: true,
+        enabled: false,
       },
       hPartyBuff: {
         name: "Tab: Hit % dealt during party synergies",
@@ -314,11 +314,11 @@ const defaultSettings: Settings = {
       },
       totalCasts: {
         name: "Skill View / Total Casts",
-        enabled: false,
+        enabled: true,
       },
       hpm: {
         name: "Skill View / Hits per Minute",
-        enabled: true,
+        enabled: false,
       },
       cpm: {
         name: "Skill View / Casts per Minute",

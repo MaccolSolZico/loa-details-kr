@@ -87,10 +87,10 @@ export const useSettingsStore = defineStore("settings", {
             name: "Tanked",
             enabled: false,
           },
-          bossHP: {
-            name: "Boss HP",
-            enabled: false,
-          },
+          // bossHP: {
+          //   name: "Boss HP",
+          //   enabled: false,
+          // },
         },
         tabs: {
           damage: {
@@ -135,19 +135,19 @@ export const useSettingsStore = defineStore("settings", {
           },
           rdpsSynPercent: {
             name: "Synergy %",
-            enabled: true,
+            enabled: false,
           },
           rdpsSupSynPercent: {
             name: "Synergy % from supports",
-            enabled: true,
+            enabled: false,
           },
           rdpsDpsSynPercent: {
             name: "Synergy % from dps",
-            enabled: true,
+            enabled: false,
           },
           counterCount: {
             name: "Counter Count",
-            enabled: true,
+            enabled: false,
           },
           hPartyBuff: {
             name: "Tab: Hit % dealt during party synergies",
@@ -179,11 +179,11 @@ export const useSettingsStore = defineStore("settings", {
           },
           totalCasts: {
             name: "Skill View / Total Casts",
-            enabled: false,
+            enabled: true,
           },
           hpm: {
             name: "Skill View / Hits per Minute",
-            enabled: true,
+            enabled: false,
           },
           cpm: {
             name: "Skill View / Casts per Minute",
