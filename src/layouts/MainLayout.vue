@@ -59,24 +59,24 @@
         </div>
       </router-link>
 
-      <div class="link-item q-ml-lg non-selectable" @click="openWiki">
+      <!-- <div class="link-item q-ml-lg non-selectable" @click="openWiki">
         <q-icon name="fa-brands fa-github" />
         Wiki
-      </div>
+      </div> -->
 
-      <div class="link-item q-ml-lg non-selectable" @click="openDiscord">
+      <!-- <div class="link-item q-ml-lg non-selectable" @click="openDiscord">
         <q-icon name="fa-brands fa-discord" />
         Discord
-      </div>
+      </div> -->
 
-      <div
+      <!-- <div
         class="link-item q-ml-lg non-selectable"
         @click="openPatreon"
         style="margin-left: auto"
       >
         <q-icon name="fa-brands fa-patreon" style="color: #f1465a" />
         Support us on Patreon!
-      </div>
+      </div> -->
     </div>
 
     <div class="q-page-container">

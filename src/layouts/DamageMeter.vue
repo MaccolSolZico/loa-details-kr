@@ -84,7 +84,7 @@
             Total TNK
             {{ numberFormat(sessionState.damageStatistics.totalDamageTaken) }}
           </span>
-          <span
+          <!-- <span
             v-if="settingsStore.settings.damageMeter.header.bossHP.enabled"
             style="margin-right: 12px"
           >
@@ -123,7 +123,7 @@
                   "%)"
                 : ""
             }}
-          </span>
+          </span> -->
         </div>
       </div>
       <div v-if="!isTakingScreenshot" style="margin-left: auto">
@@ -247,7 +247,7 @@
         >
           v{{ settingsStore.settings.appVersion }}
         </span>
-        <q-btn
+        <!-- <q-btn
           flat
           size="sm"
           :disabled="settingsStore.settings.uploads.uploadKey.length != 32"
@@ -260,7 +260,7 @@
           @click="toggleUploads"
         >
           <q-tooltip>Toggles uploading encounters</q-tooltip>
-        </q-btn>
+        </q-btn> -->
         <q-btn
           flat
           size="sm"

@@ -11,7 +11,7 @@
       <q-tab name="damage_meter" icon="speed" label="Damage Meter" />
       <q-tab name="log" icon="article" label="Log " />
       <q-tab name="shortcuts" icon="keyboard" label="Shortcuts " />
-      <q-tab name="upload_logs" icon="cloud_upload" label="Uploading" />
+      <!-- <q-tab name="upload_logs" icon="cloud_upload" label="Uploading" /> -->
     </q-tabs>
 
     <div class="settings-page">
