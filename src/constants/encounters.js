@@ -378,4 +378,10 @@ export const encounters = {
       .href,
     encounterNames: ["Sonavel", "Sonavel+"],
   },
+  Gargadis: {
+    name: "가르가디스",
+    image: new URL("../assets/images/encounters/gargadis.png", import.meta.url)
+      .href,
+    encounterNames: ["가르가디스", "가르가디스+"],
+  },
 };
