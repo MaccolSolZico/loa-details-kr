@@ -279,7 +279,7 @@ function startApplication() {
     },
   ]);
 
-  tray.setToolTip("LOA Details");
+  tray.setToolTip("LOA Details-KR");
   tray.setContextMenu(contextMenu);
 
   tray.on("click", () => {
