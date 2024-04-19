@@ -22,7 +22,7 @@
     "electron-store": "^8.1.0",
     "electron-updater": "^5.3.0",
     "lodash": "^4.17.21",
-    "meter-core": "github:lost-ark-dev/meter-core"
+    "meter-core": "file:../meter-core"
   },
   "devDependencies": {
     "@electron/rebuild": "^3.2.13",
