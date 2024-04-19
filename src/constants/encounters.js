@@ -207,6 +207,34 @@ export const encounters = {
       .href,
     encounterNames: ["길을 여는 자, 라자람"],
   },
+  ThaemineG1: {
+    name: "카멘 1관문",
+    image: new URL("../assets/images/encounters/Thaemine.png", import.meta.url)
+      .href,
+    encounterNames: ["칠흑의 숭배자, 킬리네사"],
+  },
+  ThaemineG2: {
+    name: "카멘 2관문",
+    image: new URL("../assets/images/encounters/Thaemine.png", import.meta.url)
+      .href,
+    encounterNames: [
+      "어둠의 기사, 발리나크",
+      "금기를 삼킨 자, 발리나크",
+      "종언을 고하는 자, 발리나크"
+    ],
+  },
+  ThaemineG3: {
+    name: "카멘 3관문",
+    image: new URL("../assets/images/encounters/Thaemine.png", import.meta.url)
+      .href,
+    encounterNames: ["빛을 꺼트리는 자, 카멘"],
+  },
+  ThaemineG4: {
+    name: "카멘 4관문",
+    image: new URL("../assets/images/encounters/Thaemine.png", import.meta.url)
+      .href,
+    encounterNames: ["어둠군단장 카멘", "별을 제패한 자, 카멘"],
+  },
   /* GUARDIANS BELOW */
   Achates: {
     name: "Achates",
