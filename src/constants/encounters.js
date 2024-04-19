@@ -235,6 +235,18 @@ export const encounters = {
       .href,
     encounterNames: ["어둠군단장 카멘", "별을 제패한 자, 카멘"],
   },
+  EchidnaG1: {
+    name: "에키드나 1관문",
+    image: new URL("../assets/images/encounters/Echidna.png", import.meta.url)
+      .href,
+    encounterNames: ["붉은 재앙, 다르키엘"],
+  },
+  EchidnaG2: {
+    name: "에키드나 2관문",
+    image: new URL("../assets/images/encounters/Echidna.png", import.meta.url)
+      .href,
+    encounterNames: ["에키드나","욕망의 주인, 에키드나"],
+  },
   /* GUARDIANS BELOW */
   Achates: {
     name: "Achates",
