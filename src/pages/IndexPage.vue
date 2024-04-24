@@ -18,9 +18,9 @@
         <br />
         <div>미터기 뿌리는곳 링크 :
           <a
-          @click="openLinkInBrowser('https://github.com/MacColSolPep/loa-details-kr/releases')"
+          @click="openLinkInBrowser('https://github.com/MaccolSolZico/loa-details-kr/releases')"
           class="custom-link"
-          >https://github.com/MacColSolPep/loa-details-kr/releases</a>
+          >https://github.com/MaccolSolZico/loa-details-kr/releases</a>
         </div>
       </div>
       <p>
