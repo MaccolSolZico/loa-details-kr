@@ -155,37 +155,37 @@ export const encounters = {
   },
   IvorytowerG1: {
     name: "혼돈의 상아탑 1관문",
-    image: new URL("../assets/images/encounters/Ivorytower.png", import.meta.url)
+    image: new URL("../assets/images/encounters/ivory_tower.png", import.meta.url)
       .href,
     encounterNames: ["피어나는 혼돈, 칼테이야"],
   },
   IvorytowerG2: {
     name: "혼돈의 상아탑 2관문",
-    image: new URL("../assets/images/encounters/Ivorytower.png", import.meta.url)
+    image: new URL("../assets/images/encounters/ivory_tower.png", import.meta.url)
       .href,
     encounterNames: ["웅크린 교만, 라카이서스"],
   },
   IvorytowerG3: {
     name: "혼돈의 상아탑 3관문",
-    image: new URL("../assets/images/encounters/Ivorytower.png", import.meta.url)
+    image: new URL("../assets/images/encounters/ivory_tower.png", import.meta.url)
       .href,
     encounterNames: ["대지를 짓밟는 파이어혼"],
   },
   IvorytowerG4: {
     name: "혼돈의 상아탑 4관문",
-    image: new URL("../assets/images/encounters/Ivorytower.png", import.meta.url)
+    image: new URL("../assets/images/encounters/ivory_tower.png", import.meta.url)
       .href,
     encounterNames: ["길을 여는 자, 라자람"],
   },
   ThaemineG1: {
     name: "카멘 1관문",
-    image: new URL("../assets/images/encounters/Thaemine.png", import.meta.url)
+    image: new URL("../assets/images/encounters/thaemine.png", import.meta.url)
       .href,
     encounterNames: ["칠흑의 숭배자, 킬리네사"],
   },
   ThaemineG2: {
     name: "카멘 2관문",
-    image: new URL("../assets/images/encounters/Thaemine.png", import.meta.url)
+    image: new URL("../assets/images/encounters/thaemine.png", import.meta.url)
       .href,
     encounterNames: [
       "어둠의 기사, 발리나크",
@@ -195,13 +195,13 @@ export const encounters = {
   },
   ThaemineG3: {
     name: "카멘 3관문",
-    image: new URL("../assets/images/encounters/Thaemine.png", import.meta.url)
+    image: new URL("../assets/images/encounters/thaemine.png", import.meta.url)
       .href,
     encounterNames: ["빛을 꺼트리는 자, 카멘"],
   },
   ThaemineG4: {
     name: "카멘 4관문",
-    image: new URL("../assets/images/encounters/Thaemine.png", import.meta.url)
+    image: new URL("../assets/images/encounters/thaemine.png", import.meta.url)
       .href,
     encounterNames: ["어둠군단장 카멘", "별을 제패한 자, 카멘"],
   },
@@ -382,7 +382,7 @@ export const encounters = {
   },
   Gargadis: {
     name: "가르가디스",
-    image: new URL("../assets/images/encounters/gargadis.png", import.meta.url)
+    image: new URL("../assets/images/encounters/gargadeth.png", import.meta.url)
       .href,
     encounterNames: ["가르가디스", "가르가디스+"],
   },
