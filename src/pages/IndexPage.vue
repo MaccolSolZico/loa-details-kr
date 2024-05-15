@@ -73,7 +73,7 @@
         Refer to the
         <a
           class="custom-link"
-          @click="openLinkInBrowser('https://discord.gg/C3fr3EBXbS')"
+          @click="openLinkInBrowser('https://discord.gg/ybujC3sjMy')"
         >
           Discord Server</a
         >

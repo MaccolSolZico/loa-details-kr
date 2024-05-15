@@ -64,10 +64,10 @@
         Wiki
       </div> -->
 
-      <!-- <div class="link-item q-ml-lg non-selectable" @click="openDiscord">
+      <div class="link-item q-ml-lg non-selectable" @click="openDiscord">
         <q-icon name="fa-brands fa-discord" />
         Discord
-      </div> -->
+      </div>
 
       <!-- <div
         class="link-item q-ml-lg non-selectable"
@@ -127,7 +127,7 @@ function openPatreon() {
 function openDiscord() {
   window.messageApi.send("window-to-main", {
     message: "open-link",
-    value: "https://discord.gg/C3fr3EBXbS",
+    value: "https://discord.gg/ybujC3sjMy",
   });
 }
 function openWiki() {
