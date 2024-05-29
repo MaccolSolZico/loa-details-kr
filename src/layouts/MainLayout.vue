@@ -66,7 +66,7 @@
 
       <div class="link-item q-ml-lg non-selectable" @click="openDiscord">
         <q-icon name="fa-brands fa-discord" />
-        Discord
+        디스코드
       </div>
 
       <!-- <div
